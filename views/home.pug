@@ -1,0 +1,66 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+  block style 
+    style 
+        include ../static/style.css
+
+block content 
+   
+    <section id="introSection">
+      <div>Welcome to Golu Dance Academy</div>
+      <div class="small">Eat Sleep Dance Repeat </div>      
+    </section>
+
+    <section id="missionSection">
+      <h2>Our Mission</h2>
+      <div class="card">
+        <h3>Dance Perfection</h3>
+        <div class="card-box">
+            <div class="card-img">
+              <img src="/static/img/5.png" alt="">
+            </div>
+            <div class="card-content">
+                <p>This is the best dance academy of the universe </p>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <h3>Dance the way you like</h3>
+        <div class="card-box">
+          <div class="card-img">
+            <img src="/static/img/6.png" alt="">
+          </div>
+          <div class="card-content">
+              <p>This is the best dance academy of the universe </p>
+          </div>
+      </div>
+      </div>
+
+
+      <div class="card">
+        <h3>Expert Teaching</h3>
+        <div class="card-box">
+          <div class="card-img">
+            <img src="/static/img/7.png" alt="">
+          </div>
+          <div class="card-content">
+              <p>This is the best dance academy of the universe </p>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="sponserSection">
+      <h2>Our Sponsors</h2>
+      <div id="sponsors">
+        <img src="/static/img/1.png" alt="sponsor Imgage" class="spImage">
+        <img src="/static/img/2.png" alt="sponsor Imgage" class="spImage">
+        <img src="/static/img/3.png" alt="sponsor Imgage" class="spImage">
+        <img src="/static/img/4.png" alt="sponsor Imgage" class="spImage">
+      </div>
+    </section>
